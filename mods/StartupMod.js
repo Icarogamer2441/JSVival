@@ -10,3 +10,5 @@ function startup() {
     JSV.api.send_message("you can't add mods, to add mods,");
     JSV.api.send_message("locally, clone https://github.com/Icarogamer2441/JSVival.git");
 }
+
+startup();
