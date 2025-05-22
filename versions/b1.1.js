@@ -952,21 +952,21 @@ function createHowToPlayDialog() {
 
     const content = document.createElement('div');
     content.innerHTML = `
-        <h2 style="text-align: center; color: #4CAF50;">Como Jogar</h2>
+        <h2 style="text-align: center; color: #4CAF50;">How to Play</h2>
         <div style="margin: 20px 0;">
-            <h3>Controles Básicos:</h3>
+            <h3>Basic Controls:</h3>
             <ul>
-                <li>W/A/S/D ou Setas - Movimentação</li>
-                <li>Espaço - Pular</li>
-                <li>Shift - Ativar/Desativar modo corrida</li>
-                <li>Mouse - Olhar ao redor</li>
-                <li>CTRL - Abrir/Fechar menu de pausa</li>
+                <li>W/A/S/D or Arrow Keys - Movement</li>
+                <li>Space - Jump</li>
+                <li>Shift - Toggle run mode</li>
+                <li>Mouse - Look around</li>
+                <li>CTRL - Open/Close pause menu</li>
             </ul>
         </div>
     `;
 
     const closeBtn = document.createElement('button');
-    closeBtn.textContent = 'Fechar';
+    closeBtn.textContent = 'Close';
     closeBtn.style.display = 'block';
     closeBtn.style.margin = '10px auto';
     closeBtn.style.padding = '10px 20px';
@@ -1011,7 +1011,7 @@ function createPauseMenu() {
     continueBtn.onclick = () => togglePause();
 
     const howToPlayBtn = document.createElement('button');
-    howToPlayBtn.textContent = 'Como Jogar';
+    howToPlayBtn.textContent = 'How to Play';
     howToPlayBtn.style.display = 'block';
     howToPlayBtn.style.margin = '10px';
     howToPlayBtn.style.padding = '10px 20px';
