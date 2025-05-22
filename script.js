@@ -46,6 +46,9 @@ launchButton.addEventListener('click', () => {
     } else if (selectedVersion === 'B1.1') {
         // Redirect to the B1.1 game page
         window.location.href = 'versions/b1.1.html';
+    } else if (selectedVersion === 'B1.2') {
+        // Redirect to the B1.2 game page
+        window.location.href = 'versions/b1.2.html';
     } else {
         // Future game launch logic would go here
         messageElement.textContent = `Launching version ${selectedVersion}...`;
